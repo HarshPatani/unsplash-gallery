@@ -1,0 +1,25 @@
+.imageCard {
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  img {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+  }
+
+  .imageCard__header {
+    position: absolute;
+    top: 0.2rem;
+    left: 1rem;
+    -webkit-text-stroke: 0.01px black;
+    color: white;
+    h3 {
+      &:hover {
+        cursor: pointer;
+        color: black;
+      }
+    }
+    // font-weight: 700;
+  }
+}

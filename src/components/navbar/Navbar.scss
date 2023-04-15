@@ -1,0 +1,37 @@
+.navbar {
+  border-bottom: 1px solid black;
+  margin: 0 auto;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .navbar__search {
+    display: flex;
+    gap: 1rem;
+    input {
+      padding: 0.5rem 1rem;
+      border-radius: 0.3rem;
+      font-size: 1rem;
+      border: 1px solid gray;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      border: 2px solid black;
+      border-radius: 0.3rem;
+      background-color: black;
+      color: white;
+      font-size: 1rem;
+
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
